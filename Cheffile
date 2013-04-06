@@ -6,13 +6,25 @@ site 'http://community.opscode.com/api/v1'
 # cookbook 'chef-client'
 
 cookbook 'main',
-         :path => 'cookbooks-sources'
+        	:path => 'cookbooks-sources'
 
 
 cookbook 'redisio'
 cookbook 'apt'
 
-cookbook 'ulimit'
+cookbook 'ulimit',
+					:path => 'cookbooks-sources'
+
+cookbook 'rbenv',:git=>'git://github.com/fnichol/chef-rbenv.git'
+cookbook 'ruby_build',:github=>'fnichol/chef-ruby_build',:ref=>'v0.7.2'
+cookbook 'build-essential'
+cookbook 'runit'
+cookbook 'chef_handler'
+cookbook 'git'
+cookbook 'bluepill'
+cookbook 'ohai'
+
+
 
 
 # cookbook 'apache2', '>= 1.0.0'

@@ -1,0 +1,1 @@
+default["main"]["redis"] = false
