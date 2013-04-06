@@ -12,8 +12,8 @@ cookbook 'main',
 cookbook 'redisio'
 cookbook 'apt'
 
-cookbook 'ulimit',
-	:path => 'cookbooks-sources'
+cookbook 'ulimit'
+
 
 # cookbook 'apache2', '>= 1.0.0'
 

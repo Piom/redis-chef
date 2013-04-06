@@ -10,7 +10,7 @@ package "git-core"
 
 #Redis and resque requarements 
 include_recipe "apt"
-include_recipe "redisio"
+include_recipe "redisio::install"
 
 
 
