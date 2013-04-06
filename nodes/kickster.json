@@ -1,26 +1,5 @@
 {
-	"rbenv": {
-    "user_installs": [
-      {
-        "user": "deployer",
-        "rubies": [
-          "1.9.3-p392"
-        ],
-        "global": "1.9.3-p392",
-        "gems": {
-          "1.9.3-p392": [
-            {
-              "name": "bundler"
-            },
-            {
-              "name": "rake"
-            }
-          ]
-        }
-      }
-    ]
-  },
-  "user": {
+	"user": {
     "name": "deployer",
     "password": "$1$O8edlYqv$hHA/qYDeduPpZfddmmEqz1"
   },
